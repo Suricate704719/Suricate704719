@@ -2,7 +2,7 @@
 
 Ingénieur Data spécialisé dans la conception d'architectures de données robustes, le déploiement de modèles de Machine Learning (MLOps) et l'orchestration de pipelines cloud-native. J'interviens sur l'ensemble de la chaîne de valeur de la donnée : de l'ingestion brute (ELT) au déploiement d'architectures d'Intelligence Artificielle Générative (RAG).
 
-📫 **Me contacter :** [Votre Email] | [Votre LinkedIn]
+📫 **Me contacter :** loyschataigner@gmail.com
 
 ## 🛠 Stack Technique
 
