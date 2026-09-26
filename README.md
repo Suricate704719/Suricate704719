@@ -1,47 +1,40 @@
-# Loÿs Chataigner | Data Engineer & MLOps 🚀
+# Loÿs Chataigner | Data Engineer & Cloud Architect 🚀
 
-Ingénieur Data spécialisé dans la conception d'architectures de données robustes, le déploiement de modèles de Machine Learning (MLOps) et l'orchestration de pipelines cloud-native. J'interviens sur l'ensemble de la chaîne de valeur de la donnée : de l'ingestion brute (ELT) au déploiement d'architectures d'Intelligence Artificielle Générative (RAG).
+Ingénieur Data spécialisé dans la conception d'architectures de données robustes, le déploiement d'infrastructures Cloud (FinOps & Sécurité) et l'orchestration de pipelines Big Data. J'interviens de l'ingestion brute en streaming au déploiement d'architectures d'IA.
 
-📫 **Me contacter :** loyschataigner@gmail.com
+📫 **Me contacter :** loyschataigner@gmail.com | [LinkedIn](https://www.linkedin.com/in/loys-chataigner/)
 
 ## 🛠 Stack Technique
-
-* **Data Engineering & ETL/ELT :** Python (Pandas, NumPy), dbt (Data Build Tool), Airbyte, PySpark.
-* **Databases & Modélisation :** PostgreSQL (SCD Type 2, Triggers), MongoDB, Cassandra, SQLite.
-* **MLOps & Déploiement :** Docker, BentoML, Pydantic, FastAPI.
-* **Orchestration & Streaming :** Kestra, Apache Airflow, Apache Kafka.
-* **Cloud & Architecture :** AWS (S3, ECS, DocumentDB), Google Cloud Run (GCP).
-* **IA & NLP :** LangChain, Modèles LLM (Mistral, OpenAI), Bases vectorielles, architecture RAG.
-* **Qualité & CI/CD :** Pytest, Tests unitaires et d'intégration, DevSecOps.
+* **Cloud & Architecture :** AWS (S3, ECS, DocumentDB), Google Cloud Run (GCP), FinOps.
+* **Data Engineering & Streaming :** Apache Kafka, Apache Spark (PySpark), dbt, Airbyte.
+* **Databases & Modélisation :** MongoDB, Cassandra, PostgreSQL.
+* **DevOps & Déploiement :** Docker, Docker Compose, Ansible, CI/CD.
 
 ---
 
-## 📂 Featured Use Cases (Portfolio)
+## 📂 Portfolio des Projets
 
-### 1. [Modern-Data-Stack-AWS](lien-vers-repo-1)
-**Architecture ELT, Streaming temps réel et Orchestration**
-* **Contexte :** Modernisation de la chaîne de valeur de la donnée d'une approche ETL classique vers un pipeline ELT hybride.
-* **Architecture :** Ingestion via **Airbyte**, modélisation analytique versionnée et testée avec **dbt**. Intégration de clusters **Apache Kafka** pour le traitement asynchrone des événements critiques.
-* **Opérations :** Modélisation d'une infrastructure cloud **AWS** (S3, VPC, IAM) et supervision globale via **Kestra** pour garantir l'idempotence des tâches, l'observabilité de la donnée et la gestion automatisée des alertes.
+### 1. [Cloud-Infrastructure-AWS](https://github.com/Suricate704719/Cloud-Infrastructure-AWS)
+**Architecture Cloud, Streaming temps réel et FinOps**
+* Modélisation d'une infrastructure cloud AWS sécurisée. Déploiement via **Ansible** et **Docker**. 
+* Intégration de **Kafka** (Producer/Consumer) pour l'ingestion temps réel et **PySpark** pour le traitement.
+* Évaluation de rentabilité (TCO) validant la viabilité de la migration cloud.
 
-### 2. [MLOps-GenAI-Ecosystem](lien-vers-repo-2)
-**Déploiement d'API Prédictives (Random Forest) et Génératives (RAG)**
-* **MLOps Prédictif :** Prédiction de la consommation énergétique de bâtiments (Seattle). Optimisation algorithmique via `GridSearchCV`, encapsulation du modèle via **BentoML** et **Pydantic** pour un typage strict des requêtes, et déploiement serverless sur **Google Cloud Run**.
-* **IA Générative :** Conception d'un système conversationnel interne basé sur la technique du **RAG** (Retrieval-Augmented Generation). Vectorisation de corpus documentaires, indexation en base vectorielle, et orchestration via **LangChain** et les LLMs (Mistral/OpenAI) pour fournir des réponses sourcées et fiables.
+### 2. [NoSQL-Database-Architecture](https://github.com/Suricate704719/NoSQL-Database-Architecture)
+**Conception distribuée et analyse NoSQL**
+* Conception de bases de données adaptées aux environnements Big Data (Cassandra/MongoDB).
+* Modélisation orientée requêtes (Query-driven design) et dénormalisation stratégique.
 
-### 3. [NoSQL-Secured-Migration](lien-vers-repo-3)
-**Ingénierie Big Data, Sécurité et automatisation de tests**
-* **Contexte :** Migration conteneurisée des données médicales d'un hôpital vers une architecture NoSQL distribuée.
-* **Technique :** Développement d'un pipeline Python d'injection en lots sous **MongoDB**. Application stricte du *DevSecOps* : création automatisée de rôles restreints via scripts d'initialisation, protection des identifiants (variables d'environnement).
-* **Qualité :** Orchestration via **Docker Compose** et mise en place d'une suite de tests automatisés avec **Pytest** garantissant la conformité des données avant/après migration (réconciliation à 100%).
+### 3. [MLOps-Energy-Forecast](https://github.com/Suricate704719/MLOps-Energy-Forecast)
+**Déploiement d'API Prédictives (Random Forest)**
+* Prédiction énergétique de bâtiments. Optimisation via GridSearchCV.
+* Encapsulation BentoML / Pydantic et déploiement serverless.
 
-### 4. [SQL-Architecture-Audit](lien-vers-repo-4)
-**Modélisation relationnelle, Audit d'intégrité et SCD Type 2**
-* **Conception :** Création d'un modèle en étoile normalisé pour un data warehouse immobilier, permettant des requêtes analytiques avancées (fonctions de fenêtrage `RANK() OVER`) sur le dynamisme économique national.
-* **Sécurité & Audit :** Investigation d'une anomalie financière via analyse de logs. Refonte de l'architecture pour intégrer une historisation **Slowly Changing Dimension (SCD) Type 2**. Protection transactionnelle native sous **PostgreSQL** via clés étrangères strictes, contraintes `CHECK` et déclencheurs `BEFORE UPDATE TRIGGER`.
+### 4. [Global-Education-Analytics](https://github.com/Suricate704719/Global-Education-Analytics)
+**Analyse stratégique à grande échelle (EdStats)**
+* Data cleaning avancé (EdStats - 880k+ lignes), imputation, filtrage Regex. 
+* Algorithme de scoring multicritère générant un top 10 des pays cibles.
 
-### 5. [Global-Education-Analytics](lien-vers-repo-5)
-**Analyse stratégique à grande échelle et Data Quality**
-* **Contexte :** Stratégie d'expansion internationale EdTech basée sur la base de données massive EdStats de la Banque Mondiale (880 000+ lignes).
-* **Analyse :** Data cleaning complexe (imputation régionale), filtrage sémantique automatisé via Regex, et Feature Engineering. Détection des redondances statistiques via matrice de corrélation de Spearman et visualisations Seaborn.
-* **Impact :** Création d'un algorithme de scoring multicritère pondéré et livraison de recommandations d'implantation ciblées (Business Intelligence).
+### 5. [Modern-Data-Stack-ELT](https://github.com/Suricate704719/Modern-Data-Stack-ELT)
+**Construction d'une infrastructure de données**
+* Pipeline ELT utilisant Airbyte et modèles de transformation dbt. Intégration de tests de qualité automatisés.
